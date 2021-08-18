@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Technical Challenges</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" async src="CartController.js"></script>
+   </head>
+
+<body>
+    <h1>Wellcome to Online Fruits Market</h1>
+    <div class='setting'>
+        </i><label >OFFER SETTING:</label>
+        <select name="OfferSetting" id="OfferSetting" class="OfferSetting">
+            <option value=false  >No offer</option>
+            <option value=true>simple Offer(bonus question)</option>
+         </select>
+    </div>
+    
+    <div class="main-container">
+        <div class="container">
+            <div class="card" id='item1'>
+                <img src="image/apple.jpg" alt="Apple" style="width:100%; ">
+                <h1>Apple</h1>
+                <p class="price">$0.70</p>
+                <label for="quantity">Quantity :</label>
+                <input type="number" id="quantity" name="quantity" min="1" value=1>
+                <p><button class="shop-item-button">Add to Cart</button></p>
+            </div>
+            <div class="card" id='item2'>
+                <img src="image/orange.jpg" alt="Orange" style="width:100%">
+                <h1>Orange</h1>
+                <p class="price">$0.35</p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value=1 >
+                <p><button class="shop-item-button">Add to Cart</button></p>
+            </div>
+        </div>
+
+        <div class="shopping-cart-contianer">
+            <h1 class="section-header">CART</h1>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-cloumn">ITEM</span>
+                <span class="cart-item cart-header cart-cloumn">PRICE</span>
+                <span class="cart-item cart-header cart-cloumn"> QUANTITY</span>
+            </div>
+            <div class="cart-items">
+               
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">CHECKOUT</button>
+
+        </div>
+    </div>
+</body>
+
+</html>
