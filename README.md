@@ -21,7 +21,6 @@ Installation and Setup
 
 ***User Manual****** 
 
-
 --------------------------------------------------------------------------------------
 Step 1
 
@@ -42,6 +41,5 @@ OFFER SETTING
     Select the  OFFER SETTING in dropdown menu and set the value  to "Simple offer" 
     Note: The Cart must be empty initially. 
     Now you can add any product from the list (i.e Apple, Orange) with any qunatity  the total will be calacuate according to the above offers.
-
 
 ***User Manual****** 
