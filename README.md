@@ -1,9 +1,9 @@
-# Technical-Challenge
+# JavaScript Shopping Cart
 Shopping Cart
 
 Installation and Setup 
 
-1. Download  Techincal Challenge zip file from github.
+1. Download  JavaScript Shopping Cart zip file from github.
 2. Unzip the file in any directory you prefer. 
 3. The file structure should look like below: 
     --Technical Challenge
